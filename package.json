@@ -1,0 +1,15 @@
+{
+  "name": "blest",
+  "version": "0.0.1",
+  "main": "lib/index",
+  "license": "MIT",
+  "repository": "https://github.com/aleclarson/blest.git",
+  "scripts": {
+    "build": "coffee-build src -o lib",
+    "prepublishOnly": "prepv -i || true"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.3.0",
+    "wch-coffee": "^0.2.0"
+  }
+}
